@@ -1,0 +1,133 @@
+*{
+margin:0px;
+padding:0px;
+}
+.container {
+   background: #EBE9E6;
+}
+
+.header {
+    width: 100%;
+    text-align: center; 
+    height: 72px; 
+    background: #FCFAFA;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.instruction_box {
+    margin: auto;
+    width: 705px;
+    margin-bottom : 143px;
+    background:  #F9F7F2;
+}
+
+.mcq_text {
+    color: #4C4B49;
+    margin-bottom: 19px;
+    text-align: center; 
+    font-size: 24px;
+    font-weight: bold;
+    margin-top:55px;
+} 
+
+.instruction_content{
+    margin-left:117px;
+    margin-right:116px;
+}
+
+.instruction_heading{
+    color: #4C4B49;
+    padding-top: 40px;
+    padding-bottom: 16px;
+    font-weight: bold;
+}
+
+ ul {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-left:25px;
+
+}
+
+.text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.text_button {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.wish {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    color: #4C4B49;
+    margin-bottom:40px;
+}
+
+.line {
+    width: 620px;
+    height: 1px ;
+    background: #4C4B49;
+    text-align: center;
+    margin-bottom: 39px;
+    margin: auto;
+}
+
+.button_box {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 80px;
+}
+
+.buttons {
+    padding: 16px 35px;
+    border-radius: 4px;
+    border: 2px solid #F4D150;
+    background: #FEEEB4;
+    box-shadow: 0px 4px 7px 0px #B3AE9C;
+    margin-top: 39px;
+    margin-bottom: 59px;
+}
+
+.footer {
+    height: 171px;
+    background: #4C4B49;
+    border: 2px solid;
+    text-align: center; 
+    color: white; 
+    padding-top: 42px;
+}
+
+
+
+@media(max-width:700px) {
+    
+    .instruction_box {
+        width :320px;
+        margin:auto;
+     } 
+   
+   .instruction_content {
+        width :280px;
+        margin:auto;
+   }
+   
+   .line {
+        width:280px;
+        margin:auto;
+   }
+}   
+
+

@@ -1,0 +1,210 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.header_box {
+    background-color:#FCFAFA;
+}
+
+.header_content {
+    width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.pagination_logo_box{
+    width:996px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.button{
+    width:130px;
+    height:54px;
+    border: 2px solid #F4D150;
+    background: #FEEEB4;
+    box-shadow: 0px 4px 7px 0px #B3AE9C;
+}
+  
+.logos{
+  width:112px;
+}
+
+.pagination{
+    display: flex;
+    flex-direction:row;
+    gap:16px;
+}
+
+.display_pagination{
+        display:none;
+    }
+
+.left-arrow{
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    border:1px solid #E0DFDA;
+    display:flex;
+    align-items:center;
+    justify-content:center;  
+    background-color:#FEEEB4; 
+}
+
+.pagination-row-1{
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    border:1px solid #E0DFDA;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.pagination-row-2{
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    border:1px solid #E0DFDA;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.pagination-row-3{
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    border:1px solid #E0DFDA;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.pagination-row-4{
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    border:1px solid #E0DFDA;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.pagination-row-5{
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    border:1px solid #E0DFDA;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.pagination-row-6{
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    border:1px solid #E0DFDA;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.pagination-row-7{
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    border:1px solid #E0DFDA;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.pagination-row-8{
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    border:1px solid #E0DFDA;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.right-arrow{
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    border:1px solid #E0DFDA;
+    display:flex;
+    align-items:center;
+    justify-content:center; 
+    background-color: #FEEEB4; 
+}
+
+@media (max-width:700px) {
+    .pagination {
+        width:332px;
+        display: flex; 
+        margin:auto;
+        border:1px solid blue;
+    }
+    
+    .pagination_logo_box {
+        display:flex;
+        flex-direction:column;
+    }
+    
+    .logo_box{
+        width:360px;
+        border:1px solid pink;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:72px;
+     }
+      
+    .pagination_box {
+        width:360px;
+        display:flex;
+        border:1px solid pink;
+        justify-content:center;
+        align-items:center;
+        height:72px;
+    }
+    .header_content{
+        width:360px;
+    }
+    
+    .button{
+        display:none;
+    }
+
+    .display_pagination{
+        display:block;
+    }
+    .pagination-row-2 { 
+        display: none; 
+    }
+    
+    .pagination-row-3 {
+        display:none;
+    }
+
+    .pagination-row-4 {
+         display:none;
+    }
+
+    .pagination-row-6 {
+         display:none;
+    }
+    
+    .pagination-row-7 {
+         display:none;
+    }
+}
+
